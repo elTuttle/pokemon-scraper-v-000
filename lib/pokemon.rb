@@ -5,6 +5,10 @@ class Pokemon
 
   def initialize(id: 1 ,name: "name",type: "type",db: "db")
     #binding.pry
+    @id = id:
+    @name = name:
+    @type = type:
+    @db = db:
   end
 
   def self.save(name,type,db)
