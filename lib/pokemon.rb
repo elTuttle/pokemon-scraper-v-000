@@ -13,7 +13,7 @@ class Pokemon
 
   def self.save(id,db)
     db.execute("SELECT * FROM pokemon WHERE id = ?",[id])
-    
+
   end
 
 end
