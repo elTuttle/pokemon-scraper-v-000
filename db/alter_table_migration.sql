@@ -1,1 +1,1 @@
-ALTER TABLE pokemon ADD hp = 60;
+ALTER TABLE pokemon ADD hp 60;
