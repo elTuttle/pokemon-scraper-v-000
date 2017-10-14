@@ -9,7 +9,7 @@ class Pokemon
 
   def self.save(name,type,db)
     ins = db.prepare("INSERT INTO pokemon (name,type) VALUES (?,?);")
-    String.each { |s| ins.execute(s) }
+    name.each { |s| ins.execute(s) }
   end
 
 end
