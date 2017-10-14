@@ -2,7 +2,7 @@ require 'pry'
 
 class Pokemon
 
-  def initialize(name: = "name",type: = "type",db)
+  def initialize(name: "name",type: "type",db)
     @name = name
     @type = type
     @db = db
