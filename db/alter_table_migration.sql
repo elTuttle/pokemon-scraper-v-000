@@ -1,1 +1,1 @@
-ALTER TABLE pokemon ADD hp_column
+ALTER TABLE pokemon ADD hp_column = 60
