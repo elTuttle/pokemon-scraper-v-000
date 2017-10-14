@@ -1,7 +1,7 @@
 require 'pry'
 
 class Pokemon
-  attr_accessor
+  attr_accessor :id,:name,:type,:db
 
   def initialize(id: 1 ,name: "name",type: "type",db: "db")
     binding.pry
