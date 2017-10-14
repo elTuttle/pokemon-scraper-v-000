@@ -3,9 +3,10 @@ require 'pry'
 class Pokemon
 
   def initialize(id: 1 ,name: "name",type: "type",db: "db")
-    @name = name
-    @type = type
-    @db = db
+    @name = name:
+    @type = type:
+    @db = db:
+    @id = id:
   end
 
   def self.save(name,type,db)
