@@ -4,13 +4,12 @@ class Pokemon
   attr_accessor :id,:name,:type,:db
 
   def initialize(id: 1 ,name: "name",type: "type",db: "db")
-    binding.pry
+    #binding.pry
   end
 
   def self.save(name,type,db)
-    db.execute("INSERT INTO pokemon (name,type) VALUES (#{name},#{type});")
+    db.execute("INSERT INTO pokemon (id,name,type) VALUES (#{id},#{name},#{type});")
   end
 
 end
 
-pokemon = Pokemon.new(id: 1, name: "Pikachu", type: "electric", db: @db)
