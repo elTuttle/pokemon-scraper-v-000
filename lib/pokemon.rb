@@ -1,7 +1,7 @@
 require 'pry'
 
 class Pokemon
-  attr_accessor 
+  attr_accessor
 
   def initialize(id: 1 ,name: "name",type: "type",db: "db")
     binding.pry
@@ -12,3 +12,5 @@ class Pokemon
   end
 
 end
+
+pokemon = Pokemon.new(id: 1, name: "Pikachu", type: "electric", db: @db)
